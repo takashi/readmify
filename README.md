@@ -3,6 +3,12 @@
 
 turn your package.json into README.md.
 
+## Usage
+
+```shell
+npm install -g readmify
+readmify -h
+```
 
 ## Test
 
