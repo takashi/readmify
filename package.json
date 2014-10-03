@@ -1,0 +1,38 @@
+{
+  "name": "readmify",
+  "version": "0.0.0",
+  "description": "turn your package.json into README.md.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/takashi/readmify.git"
+  },
+  "keywords": [
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "commander": "~> 2.3.0",
+    "github-url-to-object": "^1.4.0",
+    "iconv-lite": "^0.4.4",
+    "multiline": "^1.0.0",
+    "node.extend": "^1.1.2",
+    "underscore": "^1.7.0"
+  },
+  "bin": {
+    "readmify": "index.js"
+  },
+  "author": "Takashi Nakagawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takashi/readmify/issues"
+  },
+  "homepage": "https://github.com/takashi/readmify",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "nixt": "^0.4.1"
+  }
+}

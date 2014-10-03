@@ -1,0 +1,16 @@
+{
+  "name": "sample",
+  "version": "0.0.0",
+  "description": "sample",
+  "main": "index.js",
+  "scripts": {
+    "build": "grunt build",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "readmify": "~> 0.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/takashi/readmify/issues"
+  }
+}
