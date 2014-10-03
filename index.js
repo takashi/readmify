@@ -29,7 +29,8 @@ var defaultParameters = {
   dependencies: {},
   devDependencies: {},
   bugs: '',
-  travisUrl: ''
+  travisUrl: '',
+  license: ''
 }
 
 program

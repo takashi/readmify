@@ -28,3 +28,7 @@ Inside, you will run with `<%= scripts.test %>`<% } %>
 
 Fork, fix, then send me a pull request.
 <% if(bugs){  %>If your find any problem on <%= name %>, [please open issue](<%= bugs.url %>)<% } %>
+
+## License
+
+<% if(license) { %><%= license %><% } %>

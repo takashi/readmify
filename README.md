@@ -31,3 +31,7 @@ Inside, you will run with `mocha --reporter spec`
 
 Fork, fix, then send me a pull request.
 If your find any problem on readmify, [please open issue](https://github.com/takashi/readmify/issues)
+
+## License
+
+MIT
