@@ -34,7 +34,7 @@ var defaultParameters = {
 }
 
 program
-  .version('0.0.0')
+  .version('0.0.1')
   .option('-t, --travis', 'add travis badge (default: false)', false)
   .option('-f, --file <type>', 'location of package.json', 'package.json');
 
