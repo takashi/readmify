@@ -9,14 +9,14 @@
 <% if(repository) { %>git clone <%= repository.url %><% } %>
 cd ./<%= name %>
 npm install
-npm build
+npm run build
 ```
 Inside, you will run with `<%= scripts.build %>`<% } %>
 <% if(scripts.test){  %>## Test
 
 ```shell
 npm install
-npm test
+npm run test
 ```
 Inside, you will run with `<%= scripts.test %>`<% } %>
 
