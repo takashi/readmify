@@ -1,6 +1,6 @@
 {
   "name": "readmify",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "turn your package.json into README.md.",
   "main": "index.js",
   "scripts": {
