@@ -68,8 +68,8 @@ if(program.travis){
   }
 }
 
-var tpl = path.resolve('template.tpl');
-var body = _.template(readFile(tpl))(pkgJson);
+var tpl = fs.readFileSync(__dirname + "/template.tpl").toString();
+var body = _.template(tpl)(pkgJson);
 
 process.stdout.write(body)
 
